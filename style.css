@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-shadow: border-box;
+}
+
+.main{
+ width: 100%;
+ height: 100vh;
+ background-color: lightcyan;
+}
+
+.overlay{
+  width: 100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title{
+  margin-top: .3em;
+  Color: black;
+  font-size: 2.5rem;
+}
+
+.col{
+  display:flex;
+  padding:20px;
+}
+
+.col div {
+  text-align: center;
+}
+
+input{
+  width: 50%;
+  height:50%;
+  background-color: rgba(255,255,255,0.9);
+  border-color: transparent;
+  border-radius: 5px;
+}
